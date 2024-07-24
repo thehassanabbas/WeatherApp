@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    background-color: #F9DA88;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #F1FAB7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.381);
+    max-width: 400px;
+    width: 100%;
+}
+
+.heading {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 28px;
+    color: #AC2432;
+}
+
+.text {
+    color: #AC2432;
+}
+
+.input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #d61c2f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: #AC2432;
+}
+
+.result {
+    font-size: 21px;
+    color: #AC2432;
+    font-family: math;
+}
